@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Griha Cosmetics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Griha Logo" class="logo"/>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Griha Cosmetics</h1>
+      <p>Where Natural Beauty Begins — Discover the Griha Glow</p>
+      <a href="#products" class="btn">Explore Products</a>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="images/product1.jpg" alt="Glow Serum" />
+        <h3>Glow Serum</h3>
+        <p>Illuminate your skin with pure botanical extracts.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product2.jpg" alt="Herbal Cream" />
+        <h3>Herbal Cream</h3>
+        <p>Deep hydration balanced with gentle herbs.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product3.jpg" alt="Rose Mist" />
+        <h3>Rose Mist</h3>
+        <p>Calming refreshment in every spray.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about section">
+    <h2>About Griha</h2>
+    <p>
+      Inspired by nature and crafted with care, Griha blends herbal wisdom with modern science to celebrate your natural glow.  
+      Every product is cruelty‑free, eco‑friendly, and made with love.
+    </p>
+  </section>
+
+  <section id="contact" class="contact section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div id="form-status"></div>
+  </section>
+
+  <footer>
+    &copy; 2026 Griha Cosmetics | All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
