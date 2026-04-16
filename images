@@ -1,5 +1,1 @@
-git add images/logo.png
-git rm logo.png
-git commit -m "moved logo.png into images folder"
-git push
 
